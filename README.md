@@ -31,10 +31,13 @@ If no errors, we are done.
 ## Running the program
 To run the program, just do:
 ```bash
-$ python3.7 logic-arithmetic.py
+$ python3.7 logic-arithmetic.py [arg1] [arg2]
 ```
+Where `arg1` is a mandatory field, being one of the following values: `add`, `sub`, `mult`, `div`, `and`, `or`, `xor`, `not`, `blur`, `box`, `median`, `dd`, `gaussian` or `bilateral`, and `arg2` is an optional field, accepting only `special` as value, used to show a special view mode, comparing the original and the new image.
 
 ## References
 MARQUES FILHO, Ogê; VIEIRA NETO, Hugo. Processamento Digital de Imagens, Rio de Janeiro: Brasport, 1999. ISBN 8574520098
+
+[OpenCV Documentation](https://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html)
 
 ## Leonardo Zanotti
