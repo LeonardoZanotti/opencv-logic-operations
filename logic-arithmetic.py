@@ -14,7 +14,7 @@ def main():
     args = sys.argv
     if (len(args) > 1):
         if (args[1] == 'add'):
-            title = 'Addition'
+            title = 'Sum'
             image = add(square, ball)
         elif (args[1] == 'sub'):
             title = 'Subtraction'
